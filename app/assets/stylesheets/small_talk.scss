@@ -1,0 +1,56 @@
+.avatar {
+ max-height:30px;
+ border-radius: 15px;
+ width:auto;
+ vertical-align:midle;
+}
+
+
+.room-nav-link {
+	border: 1px solid lightgrey;
+	background: white;
+	color: black;
+	& + .room-nav-link {
+		border-top: 0 none ;
+	}
+}
+
+
+.chat {
+	border: 1px solid lightgrey;
+	background: white;
+	height: 70vh;
+	border-radius: 5px 5px 0 0;
+	overflow: auto;
+}
+
+.chat-input {
+	border-top: 0 none;
+	border-radius: 0 0 5px 5px ;
+}
+
+
+.chat-message-container {
+	padding: 5px;
+
+	.avatar {
+		margin: 5px;
+	}
+
+	.message-content {
+		padding: 5px;
+		border: 1px solid lightgrey;
+		border-radius: 5px;
+		background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		color: white;
+	}
+
+	& + .chat-message-container {
+		margin-top: 10px;
+	}
+
+
+}
