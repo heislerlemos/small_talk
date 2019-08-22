@@ -20,22 +20,21 @@ html, body {
 }
 
 .footer {
-  background-color: black;
+  background-color: #262130;
   color: white;
   height: 400px;
   position: relative;
 
-} 
+}
 
 .footer .footer-content {
-  border: 1px solid darkred;
   height: 350px;
 
 }
 
 
 .page-wrapper {
-  min-height: 100%;
+  min-height: 40%;
 }
 
 .page-wrapper a:houver {
@@ -44,7 +43,7 @@ html, body {
 
 
 .footer .footer-bottom {
-  background: grey;
+  background: #231C2F;
   color: white;
   height: 50px;
   width: 100%;
@@ -59,17 +58,17 @@ html, body {
   <body>
 
  <!-- <div class="container"> -->
-	<div class="row">
-	<div class="col-12">
-	 <%= render partial: 'shared/navigation_bar'%>
-	  <div class="my-3">
+  <div class="row">
+  <div class="col-12">
+   <%= render partial: 'shared/navigation_bar'%>
+    <div class="my-3">
 
-	 <%= yield %>
+   <%= yield %>
 
 
-		</div>
-	</div>
-	 <!--</div>-->
+    </div>
+  </div>
+   <!--</div>-->
 </div>
   </body>
 
