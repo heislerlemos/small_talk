@@ -19,7 +19,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'redis'
      gem 'warden'
      gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
-gem 'mail_form'
+     gem 'mail_form'
+
 gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'turbolinks'
