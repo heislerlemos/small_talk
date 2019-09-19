@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'hello_world/index'
   get 'home/index'
   resources :room_messages
   resources :rooms
